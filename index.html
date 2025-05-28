@@ -1,0 +1,134 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Starlink</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Hero Section -->
+  <header class="hero">
+    <div class="container">
+      <h1>Welcome to Starlink</h1>
+      <p>The Smart Support</p>
+    </div>
+  </header>
+
+  <!-- About Us Section -->
+  <section class="about-section">
+    <div class="container">
+      <h2>About Us</h2>
+      <p>
+        Established in 2008 by a group of passionate engineers, Starlink Engineering Ltd. has grown into a strategic partner for international organizations, telecom operators, corporate enterprises, and government agencies. We are committed to delivering high-quality, on-time, and cost-effective engineering solutions that simplify our clients' operations and add real value. <p>
+Starlink is a trusted engineering service provider in Bangladesh, delivering comprehensive, end-to-end solutions across diverse sectors and strategically delivered through following specialized business units: <p>
+	Solar EPC, <p>
+	Telecom Engineering<p>
+	CME & Interior Decoration <p>
+	Operation & Maintenance <p>
+Our core expertise spans the project lifecycle, encompassing project development, site surveys, feasibility studies, planning, engineering and design, procurement, construction and installation, commissioning and testing, operation and maintenance, optimization and tuning as well as supplying relevant products and accessories.  <p>
+Our strength lies in our skilled workforce of 150+ professionals, well-trained to manage complex engineering projects with precision, safety, and sustainability. Our integrated approach and diversified capabilities enable us to serve both the public and private sectors in telecommunications, civil infrastructure, and renewable energy.
+      </p>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section class="services-section">
+    <div class="container">
+      <h2>Our Services</h2>
+      <div class="services-grid">
+        <div class="service-card">
+          <h3>Renewable Energy</h3>
+          <p>We provide sustainable energy solutions including solar power systems for industrial and commercial use.</p>
+        </div>
+        <div class="service-card">
+          <h3>Engineering Service</h3>
+          <p>Complete structural, electrical, and mechanical engineering services tailored for modern infrastructure.</p>
+        </div>
+        <div class="service-card">
+          <h3>CME & Interior Decoration</h3>
+          <p>Turnkey solutions for civil, mechanical, electrical, and interior decoration projects.</p>
+        </div>
+        <div class="service-card">
+          <h3>Operation & Maintenance</h3>
+          <p>Efficient O&M services ensuring longevity and reliability of your systems and facilities.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section class="projects-section">
+    <div class="container">
+      <h2>Our Projects</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <img src="project1.jpg" alt="Project 1">
+          <h3>Solar Rooftop for Factory</h3>
+          <p>500kW solar rooftop system reducing electricity bills and emissions.</p>
+        </div>
+        <div class="project-card">
+          <img src="project2.jpg" alt="Project 2">
+          <h3>Corporate Office Interior</h3>
+          <p>Modern interior design for a Dhaka-based multinational office.</p>
+        </div>
+        <div class="project-card">
+          <img src="project3.jpg" alt="Project 3">
+          <h3>Data Center Setup</h3>
+          <p>Complete CME work for Tier-3 telecom data center.</p>
+        </div>
+        <div class="project-card">
+          <img src="project4.jpg" alt="Project 4">
+          <h3>O&M for Solar Power</h3>
+          <p>Annual operations and maintenance of utility-scale solar farms.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact-section">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <div class="contact-grid">
+        <div class="contact-info">
+          <p><strong>Address:</strong> GA-130/A Azhar Comfort Complex, Level - 12
+Pragati Sarani, Middle Badda
+Gulshan, Dhaka-1212
+</p>
+          <p><strong>Phone:</strong> F/P: +880222226220</p>
+          <p><strong>Email:</strong> info@starlinkengineering.com</p>
+        </div>
+        <form class="contact-form" onsubmit="handleForm(event)">
+          <input type="text" placeholder="Your Name" required />
+          <input type="email" placeholder="Your Email" required />
+          <textarea placeholder="Your Message" rows="5" required></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2025 Starlink Engineering Ltd. All Rights Reserved.</p>
+      <div class="social-links">
+        <a href="#" target="_blank">Facebook</a>
+        <a href="#" target="_blank">LinkedIn</a>
+        <a href="#" target="_blank">YouTube</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    function handleForm(e) {
+      e.preventDefault();
+      alert("Thank you! Your message has been received.");
+      e.target.reset();
+    }
+  </script>
+</body>
+</html>
